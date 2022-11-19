@@ -1,0 +1,101 @@
+.login {
+    height: 100vh;
+	/*background-color: #FFC69D;*/
+	background-image: url(../images/login_bg.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+
+.login_box {
+	font-size: 16px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color: ghostwhite;
+	border-radius: 10px;
+    box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.3);
+}
+
+.login_box img {
+	border-radius: 10px 0 0 10px;
+}
+.logo {
+	display: block;
+	margin-bottom: 20px;
+}
+.logo img {
+	width:50%;
+}
+.notify {
+	font-size: 13px;
+	font-weight: 500;
+}
+
+.u_loggedin:checked {
+    background-color: blueviolet;
+    border-color: blueviolet;
+}
+.u_loggedin:focus {
+	box-shadow: none;
+}
+
+.login_btn {
+	color: white;
+	font-weight: 700;
+	background-color: #523e27;
+	border: 2px solid #523e27;
+	display: block;
+	width: 100%;
+	transition: .3s;
+}
+
+.signup_btn {
+	color: white;
+	font-weight: 700;
+	background-color: #523e27;
+	border: 2px solid #523e27;
+	display: block;
+	width: 100%;
+	transition: .3s;
+}
+
+
+.login_btn:hover, .signup_btn:hover {
+	color: #000;
+	background-color: transparent;
+	border: 2px solid #000;
+}
+
+.btn:focus {
+	box-shadow: none;
+}
+
+.u_pass, .s_pass {
+	position: relative;
+	padding-right: 35px;
+}
+
+.eye {
+    position: absolute;
+    right: 55px;
+    top: 54.8%;
+    color: #999;
+    padding: 0 5px;
+    display: inline-block;
+}
+
+.eye2 {
+    position: absolute;
+    right: 400px;
+    top: 68%;
+    color: #999;
+    padding: 0 5px;
+    display: inline-block;
+}
+
+.form-control:focus{
+    box-shadow: none;
+}
